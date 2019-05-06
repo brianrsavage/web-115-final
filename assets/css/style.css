@@ -1,0 +1,40 @@
+.carousel-item {
+    background-color: #000;
+}
+
+.carousel-item img {
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+    opacity: .25;
+}
+
+.carousel-caption {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.tags-holder button {
+    margin: 6px;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
