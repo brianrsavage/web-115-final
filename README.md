@@ -14,7 +14,9 @@ This site is intended to be used a practical exam for the WEB-115 Web Design II 
 ```
 2. Explain what the "integrity" attribute, in the following tag is snd does in the comment area above the tag in the index.html file (lines 126 through 135).
 ```html 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" 
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+            crossorigin="anonymous"></script>
 ```
 
 3. gsfgfsgsfgf
