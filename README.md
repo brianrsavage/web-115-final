@@ -10,15 +10,12 @@ This site is intended to be used a practical exam for the WEB-115 Web Design II 
 ## Exam Action Items, Deliverables & Questions:
 
 ### Action Items
-###### 1. Explain what the following tag does in the comment area above the tag in the index.html file (lines 6 through 14).
-```html 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-```
+###### 1. Fork this repository and complete the questions in the code - found below under questions.
+###### 2. Create a sub-domain and push the NFL Arrests Site to it.
+
 ### Deliverables
-###### 1. Explain what the following tag does in the comment area above the tag in the index.html file (lines 6 through 14).
-```html 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-```
+###### 1. Make one change to the site, can be as simple as a color, and submit a pull request for your change to be included in this official version.
+
 ### Questions
 ###### 1. Explain what the following tag does in the comment area above the tag in the index.html file (lines 6 through 14).
 ```html 
@@ -30,7 +27,3 @@ This site is intended to be used a practical exam for the WEB-115 Web Design II 
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
             crossorigin="anonymous"></script>
 ```
-
-3. gsfgfsgsfgf
-4. fgdgdfgdvbdf
-5. sfgsfgsfgsf
