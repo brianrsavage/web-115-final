@@ -7,7 +7,19 @@ This site is intended to be used a practical exam for the WEB-115 Web Design II 
 - TheSportsDB API | [https://www.thesportsdb.com/api.php](https://www.thesportsdb.com/api.php)
 - NFLArrest API | [http://nflarrest.com/api/](http://nflarrest.com/api/)
 
-#### Exam Questions & Deliverables:
+#### Exam Action Items, Deliverables & Questions:
+
+##### Action Items
+1. Explain what the following tag does in the comment area above the tag in the index.html file (lines 6 through 14).
+```html 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+```
+##### Deliverables
+1. Explain what the following tag does in the comment area above the tag in the index.html file (lines 6 through 14).
+```html 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+```
+##### Questions
 1. Explain what the following tag does in the comment area above the tag in the index.html file (lines 6 through 14).
 ```html 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
