@@ -13,6 +13,7 @@ This site is intended to be used a practical exam for the WEB-115 Web Design II 
 ###### 1. Fork this repository and complete the questions in the code - found below under questions.
 ###### 2. Create a sub-domain and push the NFL Arrests Site to it.
 ###### 3. Complete the delivrable identified below.
+###### 4. Submit a pull request for your completed work.
 
 ### Deliverables
 ###### 1. Make one change to the site, can be as simple as a color, and submit a pull request for your change to be included in this official version.
