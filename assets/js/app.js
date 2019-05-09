@@ -10,9 +10,8 @@ window.onload = init;
 
 function init() {
 	$.getJSON('https://nflarrest.com/api/v1/player?limit=200', function(result) {
-		$.each(result, function(i, data) {
-			cardBuilder(data);
-		});
+		// change for pull request by Tyler Blood
+		$.each(result, (i, data) => cardBuilder(data));
 	});
 	$.getJSON('https://nflarrest.com/api/v1/crime', function(result) {
 		$.each(result, function(i, data) {
