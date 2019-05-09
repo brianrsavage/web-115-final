@@ -5,7 +5,13 @@
 
 <!-- QUESTION 1 START-->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!---
+            Brandon
+            The tag above me states that when the width will change in when the screen shrinks so that the content fits nice on the page.
+        -->
         <!--- 
+            Tyler
             The tag "<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">"  does a few different things when it is included in the head of an html page.  This meta tag is implemented for mobile sites.  I will go attribute by attribute and explain what each does as we will not see all of these included in the viewport tag all the time.
 
             width=device-width:
@@ -18,7 +24,6 @@
                 This is a depricated attribute that isn't needed unless the site is inteded to support users on iOS 9.0-9.2(we are currently on 12.2).
 
                 It was initially implemented because too many non mobile friendly sites were putting the "<meta name="viewport" content="width=device-width">" tag without actually being mobile friendly which broke many viewports.  The shrink-to-fit=no turned off the default shrink to fit so that content that was supposed to overflow on the x axis(or was meant to be off the screen to the left or right) could be hidden on initial page load again.
-              
         -->
 <!-- QUESTION 1 END-->
 
@@ -130,14 +135,19 @@
                 </div>
             </div>
         </div>
-        
+
 <!-- QUESTION 2 START-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <!---
+          Brandon
+              The integrity tag allows the script to run through a security scan to make sure that the resources being grabbed are verifed sources.
+        -->
         <!--- 
+          Tyler
             The integrity attribute is known as subresource integrity, or SRI. It is used to ensure that resources that a site fetches, usually from a CDN, haven't been manipulated by a man-in-the-middle. This is especially important here to ensure that the jquery that is being pulled isn't one that's been editted by a malicious actor.  
             
             The specific version of the SRI being used here is sha-256. SHA stands for Secure Hash Algorithm and is one of many cryptographic hash functions that can be used to encrypt an SRI.  The fact that the encryption is a one way function is what makes it a hash algorithm. The 256 part of the hash name comes from the size of the hash value.  The hash value is 256 bits, which allows the function to generate an almost unique hash value for each SRI.    
-              
         -->
 <!-- QUESTION 2 END-->
 
