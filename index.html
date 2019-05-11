@@ -5,26 +5,11 @@
 
 <!-- QUESTION 1 START-->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <!---
-            Brandon
-            The tag above me states that when the width will change in when the screen shrinks so that the content fits nice on the page.
-        -->
-        <!--- 
-            Tyler
-            The tag "<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">"  does a few different things when it is included in the head of an html page.  This meta tag is implemented for mobile sites.  I will go attribute by attribute and explain what each does as we will not see all of these included in the viewport tag all the time.
-
-            width=device-width:
-                This attribute tells the browser that the width of the page should be set to the width of the viewport. This tag should always be used when a site is designed to be mobile friendly.
-
-            initial-scale=1
-                This attribute stops the layout from shifting when an iphone is rotated. It also prevents the zoom that will occur on mobile with default scaling.
-
-            shrink-to-fit=no
-                This is a depricated attribute that isn't needed unless the site is inteded to support users on iOS 9.0-9.2(we are currently on 12.2).
-
-                It was initially implemented because too many non mobile friendly sites were putting the "<meta name="viewport" content="width=device-width">" tag without actually being mobile friendly which broke many viewports.  The shrink-to-fit=no turned off the default shrink to fit so that content that was supposed to overflow on the x axis(or was meant to be off the screen to the left or right) could be hidden on initial page load again.
-        -->
+<!--
+      Bob Carver
+    this meta tag is used for changing the screen view to different sizes to fit the content as the viewport gets bigger or smaller.
+-->
+        
 <!-- QUESTION 1 END-->
 
         <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
@@ -32,8 +17,8 @@
         <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
         <link rel="manifest" href="site.webmanifest">
         <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#2b5797">
-        <meta name="theme-color" content="#ffffff">
+        <meta name="msapplication-TileColor" content="#0080FF">
+        <meta name="theme-color" content="#0080FF">
         <meta name="description" content="This site is intended to be used a practical exam for the WEB-115 Web Design II Course in the Web Application Development Program at Reading Area Community College. Not only is this the final practical, but it is also the starting point to several development activities open to students over the summer break.">
         <title>WEB-115-900 | Final Exam Practical</title>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -53,9 +38,10 @@
                         <div class="col-sm-4 offset-md-1 py-4">
                             <h4 class="text-white">Contact</h4>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                                <li><a href="#" class="text-white">Like on Facebook</a></li>
-                                <li><a href="#" class="text-white">Email me</a></li>
+                              <!-- changed the links to blue -->
+                                <li><a href="#" class="<text-blue>">Follow on Twitter</a></li>
+                                <li><a href="#" class="text-blue">Like on Facebook</a></li>
+                                <li><a href="#" class="text-blue">Email me</a></li>
                             </ul>
                         </div>
                     </div>
@@ -138,17 +124,12 @@
 
 <!-- QUESTION 2 START-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--
+  Bob Carver
+    the integrity has to do with the security of the information being fetched from another computer. It checks to make sure the information has not been changed.
+    it uses the "sha256" which is and encryping mathmatical formual that changes information into unreadable letters and numbers.
 
-        <!---
-          Brandon
-              The integrity tag allows the script to run through a security scan to make sure that the resources being grabbed are verifed sources.
-        -->
-        <!--- 
-          Tyler
-            The integrity attribute is known as subresource integrity, or SRI. It is used to ensure that resources that a site fetches, usually from a CDN, haven't been manipulated by a man-in-the-middle. This is especially important here to ensure that the jquery that is being pulled isn't one that's been editted by a malicious actor.  
-            
-            The specific version of the SRI being used here is sha-256. SHA stands for Secure Hash Algorithm and is one of many cryptographic hash functions that can be used to encrypt an SRI.  The fact that the encryption is a one way function is what makes it a hash algorithm. The 256 part of the hash name comes from the size of the hash value.  The hash value is 256 bits, which allows the function to generate an almost unique hash value for each SRI.    
-        -->
+-->
 <!-- QUESTION 2 END-->
 
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
